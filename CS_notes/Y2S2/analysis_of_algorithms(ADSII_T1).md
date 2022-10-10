@@ -1,5 +1,5 @@
 ---
-tags: [algorithms-analysis, algorithms]
+tags: [algorithms, ADSII, Algorithms-&-Data-Structures-II, algorithms-analysis, algorithm-growth, algorithm-runtime]
 alias: [Algorithms & Data Structure II Topic 1 revision notes, ADSII T1]
 ---
 
@@ -57,3 +57,67 @@ For-loop explanation:
 - Last 1 is either return 1 or -1.
 
 1 space unit for i in the for-loop
+
+# Growth of running time
+
+* Use generic constants e.g: T(N) = C<sub>1</sub>N + C<sub>2</sub>
+* Ignore constants and lower-order terms
+
+# Analysis of algorithm run-time
+
+```
+function SumDiag(A)
+sum <-- 0
+N <-- length(A[0]) ------------> C1N + C2
+for 0 <= i < N ----------------> C3N + C4
+	sum <-- sum + A[i,i] ------> C5N
+return sum --------------------> C6
+```
+
+T(N) = C<sub>7</sub>N + C<sub>8</sub> 
+
+# Worst case analysis
+
+For an input of size N, you analyse the case that takes the maxiumum number of instructions.
+
+# Best case analysis
+
+For an input of size N, you analyse the case that takes the minimum number of instructions.
+
+# Asymptotic Analysis
+
+## Big-O notation
+
+> T(n) is O(g(N)) if:
+> c*g(N) >= T(N) for all N >= n<sub>0</sub>
+> c and n<sub>0</sub> must be positive constants.
+
+- It is fine if there are values for which c*g(N) < T(N) as long as ** for large values of N ** , c\*g(N) is an upper bound for T(N). 
+
+E.g:
+- T(N) is O(N<sup>3</sup>)
+- T(N) is O(N<sup>4</sup>)
+- T(N) is O(2<sup>N</sup>)
+
+## Omega notation
+
+> T(n) is Ω(g(N)) if:
+> c*g(N) <= T(N) for all N >= n<sub>0</sub>
+> c and n<sub>0</sub> must be positive constants.
+
+- It is fine if there are values for which c*g(N) < T(N) as long as ** for large values of N ** , c\*g(N) is an upper bound for T(N). 
+
+E.g:
+- T(N<sup>3</sup>) is Ω(g(N))
+- T(N<sup>4</sup>) is Ω(g(N))
+- T(2<sup>N</sup>) is Ω(g(N))
+
+## Theta notation
+
+> T(n) is Θ(g(N)) if:
+> c<sub>1</sub>\*g(N) <= T(N) for all N >= n<sub>0</sub>
+> c<sub>2</sub>\*g(N) >= T(N) for all N >= n<sub>0</sub>
+
+f(N) is Θ(g(N)) if there exist positive constants c<sub>1</sub>, c<sub>2</sub> and n<sub>0</sub> such that:
+
+c<sub>1</sub>g(N) <= f(N) <= c<sub>2</sub>g(N) for all n>= n<sub>0</sub> 
