@@ -1,5 +1,5 @@
 ---
-tag: [obsidian-guide, notetaking]
+tags: [obsidian-guide, notetaking]
 aliases: [notetaking guide, obsidian guide]
 ---
 

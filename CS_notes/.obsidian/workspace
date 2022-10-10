@@ -4,6 +4,18 @@
     "type": "split",
     "children": [
       {
+        "id": "0e865a34d1387eaf",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Y3S1/introduction_to_data_science(DS_T1).md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
         "id": "1a7b5b745e4d0e93",
         "type": "leaf",
         "state": {
@@ -77,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Quick Obsidian Guide to Notetaking for self.md",
+                "file": "Y3S1/introduction_to_data_science(DS_T1).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Quick Obsidian Guide to Notetaking for self.md",
+                "file": "Y3S1/introduction_to_data_science(DS_T1).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Quick Obsidian Guide to Notetaking for self.md"
+                "file": "Y3S1/introduction_to_data_science(DS_T1).md"
               }
             }
           },
@@ -137,13 +149,14 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "1a7b5b745e4d0e93",
+  "active": "0e865a34d1387eaf",
   "lastOpenFiles": [
-    "analysis_of_algorithms(ADSII_T1).md",
+    "Y2S2/analysis_of_algorithms(ADSII_T1).md",
+    "Y3S1/introduction_to_data_science(DS_T1).md",
     "Quick Obsidian Guide to Notetaking for self.md",
+    "analysis_of_algorithms(ADSII_T1).md",
     "Analysis of Algorithms (Topic 1).md",
     "Comparison sorting algorithms (Topic 3).md",
-    "Untitled.md",
     "ayaya.png.md",
     "1157_risitas.png",
     "placeholder.md",
