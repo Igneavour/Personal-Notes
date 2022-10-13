@@ -1,5 +1,5 @@
 ---
-tags: [bounding-box, object-detection, machine-learning, face-tracking, body-tracking, driverless-cars, handwriting-recognition, speech-recognition, privacy-concerns, recommender-system, data-imputation, generative-machine-learning, sensor-based-activity-recognition, supervised-learning, unsupervised-learning, reinforcement-learning]
+tags: [neural-network, bounding-box, object-detection, machine-learning, face-tracking, body-tracking, driverless-car, handwriting-recognition, speech-recognition, privacy-concern, recommender-system, data-imputation, generative-machine-learning, sensor-based-activity-recognition, supervised-learning, unsupervised-learning, reinforcement-learning]
 aliases: [intro to machine learning, MLNN T1, machine learning topic 1]
 ---
 
