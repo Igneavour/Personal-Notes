@@ -1,17 +1,45 @@
 {
-  "collapse-filter": false,
+  "collapse-filter": true,
   "search": "",
-  "showTags": false,
+  "showTags": true,
   "showAttachments": false,
-  "hideUnresolved": false,
+  "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "Algorithms & Data Structures II",
       "color": {
         "a": 1,
         "rgb": 5419488
+      }
+    },
+    {
+      "query": "Data Science",
+      "color": {
+        "a": 1,
+        "rgb": 16689926
+      }
+    },
+    {
+      "query": "Machine Learning",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
+      }
+    },
+    {
+      "query": "Intelligent Signal Processing",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
+      }
+    },
+    {
+      "query": "Databases and Advanced Data Techniques",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
       }
     }
   ],
@@ -25,6 +53,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.000000000000001,
+  "scale": 0.6372987299011734,
   "close": false
 }

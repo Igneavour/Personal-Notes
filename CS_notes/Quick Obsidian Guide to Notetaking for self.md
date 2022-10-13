@@ -97,3 +97,8 @@ OR enclose with the code tag like
 
 > Sample block quote
 
+# Latex 
+
+To write mathematical expressions or equations, use double $ sign like the example below. Any specific mathematical symbols not known shall be googled: 
+
+$$ \frac{a}{b} $$

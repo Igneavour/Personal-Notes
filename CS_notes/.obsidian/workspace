@@ -7,24 +7,8 @@
         "id": "0e865a34d1387eaf",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Y3S1/introduction_to_data_science(DS_T1).md",
-            "mode": "source",
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "1a7b5b745e4d0e93",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Quick Obsidian Guide to Notetaking for self.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -73,7 +57,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 255.5
   },
   "right": {
     "id": "118651a17937189b",
@@ -89,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Y3S1/introduction_to_data_science(DS_T1).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Y3S1/introduction_to_data_science(DS_T1).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,9 +110,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Y3S1/introduction_to_data_science(DS_T1).md"
-              }
+              "state": {}
             }
           },
           {
@@ -142,7 +122,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -151,15 +131,15 @@
   },
   "active": "0e865a34d1387eaf",
   "lastOpenFiles": [
+    "Y3S1/databases_advanced_data_techniques_CM3010/working_with_data(DADT_T1).md",
+    "Y3S1/machine_learning_neural_networks_CM3015/machine_learning_introduction_and_fundamentals(MLNN_T1).md",
+    "Y3S1/intelligent_signal_processing_CM3065/digitising_representing_and_storing_audio_signals(ISP_T1).md",
+    "Y3S1/data_science_CM3005/introduction_to_data_science(DS_T1).md",
     "Y2S2/analysis_of_algorithms(ADSII_T1).md",
-    "Y3S1/introduction_to_data_science(DS_T1).md",
     "Quick Obsidian Guide to Notetaking for self.md",
-    "analysis_of_algorithms(ADSII_T1).md",
-    "Analysis of Algorithms (Topic 1).md",
-    "Comparison sorting algorithms (Topic 3).md",
-    "ayaya.png.md",
-    "1157_risitas.png",
-    "placeholder.md",
-    "2022-09-11.md"
+    "Doesn't exist Yet.md",
+    "Untitled.md",
+    "Y3S1/introduction_to_data_science(DS_T1).md",
+    "analysis_of_algorithms(ADSII_T1).md"
   ]
 }
