@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "Algorithms & Data Structures II",
@@ -32,7 +32,7 @@
       "query": "Intelligent Signal Processing",
       "color": {
         "a": 1,
-        "rgb": 5431378
+        "rgb": 14706514
       }
     },
     {
@@ -53,6 +53,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.6372987299011734,
+  "scale": 0.4061496711336475,
   "close": false
 }

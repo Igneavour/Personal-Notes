@@ -1,6 +1,6 @@
 ---
-tags: [data-science, data-science-impact, data-point, dataset, data-science-purpose]
-aliases: [DS T1, intro to data science, Data Science Topic 1]
+tags: [data-science, data-science-impact, data-point, dataset, data-science-purpose, dataset-issue]
+aliases: [DS T1, Intro To Data Science, Data Science Topic 1]
 ---
 
 # Reading resources for this topic

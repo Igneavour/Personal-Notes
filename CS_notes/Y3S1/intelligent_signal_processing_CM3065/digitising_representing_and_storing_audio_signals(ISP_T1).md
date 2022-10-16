@@ -1,6 +1,6 @@
 ---
 tags: [intelligent-signal-processing, sound, wavelength, amplitude, crest, trough, frequency, period, period-frequency-formula, speed-wavelength-frequency-formula, sound-physical-property, time-period, duration, sound-perceptual-property, pitch, loudness, timbre, pure-tone, sampling-rate, nyquist-shannon-sampling-theorem, bit-depth, clipping, digital-audio-representation, spectrogram]
-aliases: [ISP T1, intelligent signal processing topic 1]
+aliases: [ISP T1, Intelligent Signal Processing Topic 1]
 ---
 
 # Sound

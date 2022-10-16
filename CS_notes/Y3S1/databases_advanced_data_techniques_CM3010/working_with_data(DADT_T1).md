@@ -1,6 +1,6 @@
 ---
 tags: [database, data-type, data-structure, data, data-shape, license, ethics, open-data]
-aliases: [DADT T1, databases and advanced data techniques T1]
+aliases: [DADT T1, Databases And Advanced Data Techniques T1]
 ---
 
 # Reading resources for this topic

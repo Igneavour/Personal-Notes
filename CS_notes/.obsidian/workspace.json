@@ -1,0 +1,164 @@
+{
+  "main": {
+    "id": "38b4bb77dee4419d",
+    "type": "split",
+    "children": [
+      {
+        "id": "995d7e53771e3ceb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0e865a34d1387eaf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Y3S1/data_science_CM3005/data_processing(DS_T2).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bd67458b68e46bfc",
+    "type": "split",
+    "children": [
+      {
+        "id": "b37601647e952de1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e26699c288cfde3d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fb0496456517db02",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a3ba40bc90808569",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 255.5
+  },
+  "right": {
+    "id": "118651a17937189b",
+    "type": "split",
+    "children": [
+      {
+        "id": "f0d2dbdb705c5a50",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8d291b10765369d3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Y3S1/data_science_CM3005/data_processing(DS_T2).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a68a6dd475f50b84",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Y3S1/data_science_CM3005/data_processing(DS_T2).md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9c17cb3f78709876",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e562ff6b860f1be4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Y3S1/data_science_CM3005/data_processing(DS_T2).md"
+              }
+            }
+          },
+          {
+            "id": "4e759c07f2e0d638",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "0e865a34d1387eaf",
+  "lastOpenFiles": [
+    "Y3S1/data_science_CM3005/introduction_to_data_science(DS_T1).md",
+    "Y3S1/data_science_CM3005/data_processing(DS_T2).md",
+    "Y2S2/analysis_of_algorithms(ADSII_T1).md",
+    "Y3S1/machine_learning_neural_networks_CM3015/machine_learning_introduction_and_fundamentals(MLNN_T1).md",
+    "Y3S1/intelligent_signal_processing_CM3065/digitising_representing_and_storing_audio_signals(ISP_T1).md",
+    "Y3S1/databases_advanced_data_techniques_CM3010/working_with_data(DADT_T1).md",
+    "Quick Obsidian Guide to Notetaking for self.md",
+    "Doesn't exist Yet.md",
+    "Untitled.md",
+    "Y3S1/introduction_to_data_science(DS_T1).md"
+  ]
+}
