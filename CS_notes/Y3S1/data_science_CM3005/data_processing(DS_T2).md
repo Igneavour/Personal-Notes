@@ -1,5 +1,5 @@
 ---
-tags: [data-type, numpy, numpy-memory-allocation, numpy-initialise-array, numpy-array-arithmetic, data-pre-processing, dataset-issue, advanced-indexing, structured-data, numpy-statistics, measures-of-central-tendency, measures-of-spread, linear-algebra, scalar, vector, scalar-multiplication, vector-addition, dot-product, matrix, determinant, rank, trace, inverse-matrix, linear-equation]
+tags: [data-type, numpy, numpy-memory-allocation, numpy-initialise-array, numpy-array-arithmetic, data-pre-processing, dataset-issue, advanced-indexing, structured-data, numpy-statistics, measures-of-central-tendency, measures-of-spread, linear-algebra, scalar, vector, scalar-multiplication, vector-addition, dot-product, matrix, determinant, rank, trace, inverse-matrix, linear-equation, series, dataframe, pandas, time-series]
 aliases: [DS T2, Data Science Topic 2, Data Processing]
 ---
 
@@ -12,6 +12,33 @@ aliases: [DS T2, Data Science Topic 2, Data Processing]
 5. [Linear Algebra Chapter 4: Matrices](https://ebookcentral.proquest.com/lib/londonww/detail.action?docID=1920019)
 6. [Linear Algebra Chapter 6: Determinants](https://ebookcentral.proquest.com/lib/londonww/detail.action?docID=1920019)
 7. [Python data science handbook Chapter 2: Introduction to NumPy](https://ebookcentral.proquest.com/lib/londonww/detail.action?docID=4746657)
+8. Read the following sections:
+	- Introduction
+	
+	- Overview
+	
+	- Timestamps vs. time spans
+	
+	- Converting to timestamps
+	
+	- Generating ranges of timestamps
+	
+	- Timestamp limitations
+	
+	- Indexing is here but cover this later
+	
+	- Time/date components
+	
+	- DateOffset objects
+	
+	- Time Series-Related Instance Methods
+	
+	- Resampling
+	[Pandas User Guide: Time series/date functionality](https://pandas.pydata.org/pandas-docs/stable/user_guide/timeseries.html)
+9. [pandas getting started: intro to data structures](https://pandas.pydata.org/docs/user_guide/dsintro.html) 
+10. [pandas API reference: Series](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.html)
+11. [pandas API reference: DataFrame](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html)
+12. [Python data science handbook chapter 3: Data Manipulation with Pandas](https://ebookcentral.proquest.com/lib/londonww/detail.action?docID=4746657&query=Python+data+science+handbook%3A+essential+tools+for+working+with+data.)
 
 # Data types
 
@@ -734,3 +761,85 @@ $$
 - This is not the only approach to solving the linear equations:
 	- Gaussian elimination
 	- Cramer's rule
+
+# Series and dataframes in pandas
+
+## Core data structures in pandas
+
+Series
+- one-dimensional labelled array
+- data can be any type
+
+DataFrame
+- two-dimensional labelled table
+- columns can be of different type
+
+Refer to video in coursera for demonstrations in pandas usage:
+<form action="https://www.coursera.org/learn/uol-cm3005-data-science/lecture/WekhK/2-201-series-and-data-frames-in-pandas">
+	<input type="submit" value="Video 2.201 Series and data frames in pandas">
+</form>
+
+## Time-series data
+
+Time-series is a sequence of variable measurements, indexed by time
+
+### Uses and applications
+- business and finance
+	- analysis of stock price, costs, profit, units sold ...
+- organisational
+	- monitoring process or quality, workload projections
+- government and policy making
+	- changes in economic, health, crime, statistics
+- science and engineering
+	- signal processing, energy efficiency, cell mutation
+
+### Looking for trends
+
+- seasonal variation
+- significant events
+	- natural disasters, changes of government, tax regulation
+- correlations
+	- do variables change in similar ways over time?
+- understanding the past
+- predicting the future
+
+### Different kinds of pattern
+
+- variability
+- rate of change
+- co-variance and correlation
+- cycles
+- exceptions
+
+### Sampling rate
+
+- some variable are constantly changing over time
+	- temperature, physiological response, stock market
+- rate of measurement is important
+
+Example:
+
+Temperature
+> one measurement per hour, or one measurement per second?
+
+Stock market
+> trend over a whole year, or changes over milliseconds
+
+### Time related concepts in pandas
+
+Date times: A specific date and time with timezone support
+Time deltas: An absolute time duration
+Time spans: A span of time defined by a point in time and its associated frequency
+Date offsets A relative time duration that respects calendar arithmetic
+
+![[panda_datatypes.png]]
+
+Note: Need to log into coursera first before you can access the links
+
+<form action="https://www.coursera.org/learn/uol-cm3005-data-science/lecture/PADBm/2-205-representing-time">
+	<input type="submit" value="Video 2.205 Representing Time">
+</form>
+
+<form action="https://www.coursera.org/learn/uol-cm3005-data-science/lecture/GurPe/2-206-time-series-analysis">
+	<input type="submit" value="Video 2.206 Time Series Analysis">
+</form>

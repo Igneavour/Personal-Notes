@@ -53,7 +53,7 @@ Sensor-based wearable activity recognition has made us we enter the mainstream t
 
 ## Unsupervised Learning
 
-- We simply observe a dataset consists of all individual samples, but with no lobals given.
+- We simply observe a dataset consists of all individual samples, but with no labels given.
 
 ![[machine_learning_types_flowchart.png]]
 
