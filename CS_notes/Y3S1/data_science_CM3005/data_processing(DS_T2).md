@@ -775,9 +775,8 @@ DataFrame
 - columns can be of different type
 
 Refer to video in coursera for demonstrations in pandas usage:
-<form action="https://www.coursera.org/learn/uol-cm3005-data-science/lecture/WekhK/2-201-series-and-data-frames-in-pandas">
-	<input type="submit" value="Video 2.201 Series and data frames in pandas">
-</form>
+
+[Video 2.201 Series and data frames in pandas](https://www.coursera.org/learn/uol-cm3005-data-science/lecture/WekhK/2-201-series-and-data-frames-in-pandas)
 
 ## Time-series data
 
@@ -836,10 +835,6 @@ Date offsets A relative time duration that respects calendar arithmetic
 
 Note: Need to log into coursera first before you can access the links
 
-<form action="https://www.coursera.org/learn/uol-cm3005-data-science/lecture/PADBm/2-205-representing-time">
-	<input type="submit" value="Video 2.205 Representing Time">
-</form>
+[Video 2.205 Representing Time](https://www.coursera.org/learn/uol-cm3005-data-science/lecture/PADBm/2-205-representing-time)
 
-<form action="https://www.coursera.org/learn/uol-cm3005-data-science/lecture/GurPe/2-206-time-series-analysis">
-	<input type="submit" value="Video 2.206 Time Series Analysis">
-</form>
+[Video 2.206 Time Series Analysis](https://www.coursera.org/learn/uol-cm3005-data-science/lecture/GurPe/2-206-time-series-analysis)

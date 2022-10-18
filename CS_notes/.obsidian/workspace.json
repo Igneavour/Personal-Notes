@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Y3S1/data_science_CM3005/data_processing(DS_T2).md",
+                "file": "Y3S1/intelligent_signal_processing_CM3065/editing_and_processing_digital_audio(ISP_T2).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Y3S1/data_science_CM3005/data_processing(DS_T2).md",
+                "file": "Y3S1/intelligent_signal_processing_CM3065/editing_and_processing_digital_audio(ISP_T2).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Y3S1/data_science_CM3005/data_processing(DS_T2).md",
+                "file": "Y3S1/intelligent_signal_processing_CM3065/editing_and_processing_digital_audio(ISP_T2).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Y3S1/data_science_CM3005/data_processing(DS_T2).md"
+                "file": "Y3S1/intelligent_signal_processing_CM3065/editing_and_processing_digital_audio(ISP_T2).md"
               }
             }
           },
@@ -150,15 +150,15 @@
   },
   "active": "0e865a34d1387eaf",
   "lastOpenFiles": [
-    "Quick Obsidian Guide to Notetaking for self.md",
-    "Y3S1/data_science_CM3005/data_processing(DS_T2).md",
-    "Y3S1/machine_learning_neural_networks_CM3015/machine_learning_introduction_and_fundamentals(MLNN_T1).md",
-    "Y3S1/data_science_CM3005/introduction_to_data_science(DS_T1).md",
-    "Y2S2/analysis_of_algorithms(ADSII_T1).md",
     "Y3S1/intelligent_signal_processing_CM3065/digitising_representing_and_storing_audio_signals(ISP_T1).md",
+    "Y3S1/intelligent_signal_processing_CM3065/editing_and_processing_digital_audio(ISP_T2).md",
+    "Y3S1/machine_learning_neural_networks_CM3015/machine_learning_introduction_and_fundamentals(MLNN_T1).md",
+    "Y3S1/data_science_CM3005/data_processing(DS_T2).md",
+    "Y3S1/data_science_CM3005/introduction_to_data_science(DS_T1).md",
+    "Quick Obsidian Guide to Notetaking for self.md",
+    "Y2S2/analysis_of_algorithms(ADSII_T1).md",
     "Y3S1/databases_advanced_data_techniques_CM3010/working_with_data(DADT_T1).md",
     "Doesn't exist Yet.md",
-    "Untitled.md",
-    "Y3S1/introduction_to_data_science(DS_T1).md"
+    "Untitled.md"
   ]
 }
