@@ -1,5 +1,5 @@
 ---
-tags: [audio-editing, audio-processing, audio-normalisation, amplitude-control, fade-in, fade-out, spectrogram, audio-effect, filter, delay-effect, dynamic-range-effect, waveshaping, distortion, spatialisation, reverberation, averaging-low-pass-filter, finite-impulse-response-filter]
+tags: [audio-editing, audio-processing, audio-normalisation, amplitude-control, fade-in, fade-out, spectrogram, audio-effect, filter, delay-effect, dynamic-range-effect, waveshaping, distortion, spatialisation, reverberation, averaging-low-pass-filter, finite-impulse-response-filter, linear-time-invariant-system, impulse-response]
 aliases: [ISP T2, Intelligent Signal Processing Topic 2]
 ---
 
@@ -120,4 +120,79 @@ $$
 
 We have already used this formula, since the moving average filter is a kind of FIR filter.
 $$ h(n) = \frac{1}{N}, n = 0,1, ... , N-1 $$
+
+## Linear Time Invariant Systems
+
+### What is a signal?
+
+- A list of numbers
+- For audio signals, it represents the amplitude sampled over time
+
+### What is a system?
+
+- Something we use to process signals
+- If it happens to be a linear, time invariant (LTI) system, we can represent its behaviour as a list of numbers known as an <b>impulse response</b>
+
+### Impulse response
+- It is the response of an LTI system to the impulse signal
+
+An impulse is one single maximum amplitude sample as seen in the image below:
+
+![[impulse_signal.png]]
+
+An impulse response would be the response and comes out from a system after we pass an impulse through it:
+
+![[impulse_response.png]]
+
+### What are the characteristics of LTI systems?
+
+Linear systems have very specific characteristics which enable us to do the convolution:
+1. Homogeneity
+2. Additivity
+3. Shift invariance
+
+#### Homogeneity
+> Linear with respect to scale
+
+![[homogeneity.png]]
+
+As seen from the graphs, the initial signal has a scale factor of 0.5. When it is passed through the system, the output can also be seen with the same scale factor of 0.5. This proves that the system has homogeneity.
+
+#### Additivity
+> Can separately process simple signals and add results together
+
+![[additivity.png]]
+
+Signals 1 and 2 are added together to produce signal 3. The output has the same feature where output 1 and 2 combined gives you output 3. This means that we can predict output 3 if we were only given signals 1 and 2.
+
+#### Shift invariance
+> Later signal --> later response
+
+![[shift_invariance.png]]
+
+Simply put, the system has shift invariance if the 2 signals sent at different time comes out with the same amount as the delay between the 2 signals.
+
+## Convolution by hand
+
+The steps in convolution by hand: 
+- Decompose (additivity) - Break the signal into its component parts
+- Scale (homogeneity) - Scale the impulse response
+- Shift (shift invariance) - Shift the impulse response
+- Synthesize (addition) - Add the components back together
+
+### Decompose
+
+![[convolution_decompose.png]]
+
+### Scale
+
+![[convolution_scale.png]]
+
+### Shift
+
+![[convolution_shift.png]]
+
+### Synthesize
+
+![[convolution_synthesize.png]]
 
