@@ -1,5 +1,5 @@
 ---
-tags: [2D-frequency-analyser, 3D-spectrogram, bin, window, spectral-analysis, pulse-wave, sine-wave, sawtooth-wave, fourier-transformation, discrete-cosine-transformation, synthesis-with-sum-of-cosine, dct-iv, discrete-fourier-transform, complex-numbers, ]
+tags: [2D-frequency-analyser, 3D-spectrogram, bin, window, spectral-analysis, pulse-wave, sine-wave, sawtooth-wave, fourier-transformation, discrete-cosine-transformation, synthesis-with-sum-of-cosine, dct-iv, discrete-fourier-transform, complex-numbers]
 aliases: [ISP T3, Intelligent Signal Processing Topic 3]
 ---
 

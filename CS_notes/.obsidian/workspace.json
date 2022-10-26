@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f0ac7c615bdd1720",
+            "id": "c53bb7fb348ce873",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Y3S1/intelligent_signal_processing_CM3065/frequency_domain_representations(ISP_T3).md",
+                "file": "Y3S1/machine_learning_neural_networks_CM3015/linear_regression(MLNN_T3).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Y3S1/intelligent_signal_processing_CM3065/frequency_domain_representations(ISP_T3).md",
+                "file": "Y3S1/machine_learning_neural_networks_CM3015/linear_regression(MLNN_T3).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Y3S1/intelligent_signal_processing_CM3065/frequency_domain_representations(ISP_T3).md",
+                "file": "Y3S1/machine_learning_neural_networks_CM3015/linear_regression(MLNN_T3).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Y3S1/intelligent_signal_processing_CM3065/frequency_domain_representations(ISP_T3).md"
+                "file": "Y3S1/machine_learning_neural_networks_CM3015/linear_regression(MLNN_T3).md"
               }
             }
           },
@@ -148,17 +148,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "f0ac7c615bdd1720",
+  "active": "c53bb7fb348ce873",
   "lastOpenFiles": [
-    "Quick Obsidian Guide to Notetaking for self.md",
     "Y3S1/intelligent_signal_processing_CM3065/frequency_domain_representations(ISP_T3).md",
     "Y3S1/intelligent_signal_processing_CM3065/editing_and_processing_digital_audio(ISP_T2).md",
-    "Y3S1/intelligent_signal_processing_CM3065/digitising_representing_and_storing_audio_signals(ISP_T1).md",
+    "Y3S1/machine_learning_neural_networks_CM3015/linear_regression(MLNN_T3).md",
     "Y3S1/data_science_CM3005/data_processing(DS_T2).md",
-    "Y3S1/data_science_CM3005/data_visualisation(DS_T3).md",
     "Y3S1/machine_learning_neural_networks_CM3015/classification(MLNN_T2).md",
+    "Quick Obsidian Guide to Notetaking for self.md",
+    "Y3S1/intelligent_signal_processing_CM3065/digitising_representing_and_storing_audio_signals(ISP_T1).md",
+    "Y3S1/data_science_CM3005/data_visualisation(DS_T3).md",
     "Y3S1/databases_advanced_data_techniques_CM3010/relational_databases(DADT_T2).md",
-    "Y3S1/machine_learning_neural_networks_CM3015/machine_learning_introduction_and_fundamentals(MLNN_T1).md",
-    "Y3S1/data_science_CM3005/introduction_to_data_science(DS_T1).md"
+    "Y3S1/machine_learning_neural_networks_CM3015/machine_learning_introduction_and_fundamentals(MLNN_T1).md"
   ]
 }
