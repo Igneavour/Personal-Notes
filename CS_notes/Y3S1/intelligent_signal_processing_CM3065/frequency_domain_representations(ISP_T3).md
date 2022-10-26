@@ -1,7 +1,11 @@
 ---
-tags: [2D-frequency-analyser, 3D-spectrogram, bin, window, spectral-analysis, pulse-wave, sine-wave, sawtooth-wave, fourier-transformation, discrete-cosine-transformation, synthesis-with-sum-of-cosine, dct-iv]
+tags: [2D-frequency-analyser, 3D-spectrogram, bin, window, spectral-analysis, pulse-wave, sine-wave, sawtooth-wave, fourier-transformation, discrete-cosine-transformation, synthesis-with-sum-of-cosine, dct-iv, discrete-fourier-transform, complex-numbers, ]
 aliases: [ISP T3, Intelligent Signal Processing Topic 3]
 ---
+
+# Reading resources
+
+Refer to the notebooks in studies folder, code demonstrations are found there
 
 # Introduction to spectral analysers
 
@@ -49,6 +53,10 @@ Coursera video gave a few demonstration of spectral analysers as well as the thi
 > Is a formalisation of the process of figuring out how to make a given signal out of a set of sine waves
 
 $$ S_N(x) = \frac{a_0}{2} + \sum_{n=1}^N(a_ncos(\frac{2\pi}{P}nx) + b_nsin(\frac{2\pi}{P}nx)) $$
+
+## Analysis problem
+
+> Given a signal and a set of frequencies, how can we find the amplitude of each frequency component?
 
 # Discrete Cosine Transform
 
@@ -135,3 +143,115 @@ The choice of frequencies and time steps dictates which version of DCT we are us
 $$ X_k = \sum_{n=0}^{N-1}x_ncos[\frac{\pi}{N}(n + \frac{1}{2})(k + \frac{1}{2})] $$
 $$ k = 0, ..., N - 1 $$
 
+# Discrete Fourier Transform
+
+## Properties of sinusoids: frequency, phase, amplitude
+
+![[properties_of_sinusoidal_waves.png]]
+
+## Updated analysis problem from [[frequency_domain_representations(ISP_T3)#Analysis problem|DCT]]
+
+> Given a signal and a set of frequencies, how can we find the amplitude <b>and phase</b> of each frequency component?
+
+## Complex numbers
+
+- We will be using complex numbers to store phase and amplitude in the same place
+- We need a way to compute waveforms from complex numbers: the exponential function
+	- np.exp(x)
+
+![[np_exp.png]]
+
+## Complex synthesis
+
+``` python
+def synthesize_complex(amps, fs, ts):
+	args = np.outer(ts, fs)
+	M = np.exp(1j * np.pi * 2 * args)
+	ys = np.dot(M, amps)
+	return ys
+```
+
+## Complex analysis with np.linalg.solve
+
+``` python
+def analyze_complex(ys, fs, ts):
+	args = np.outer(ts, fs)
+	M = np.exp(1j * np.pi * 2 * args)
+	amps = np.linalg.solve(M, ys)
+	return amps
+```
+
+## Complex analysis with DFT
+
+### Nearly DFT
+
+``` python
+# nearly DFT as the DFT removes the \N on the last line
+def analyze_nearly_dft(ys, fs, ts):
+	N = len(fs)
+	args = np.outer(ts, fs)
+	M = np.exp(1j * np.pi * 2 * args)
+	amps = M.conj().transpose().dot(ys) / N
+	return amps
+```
+
+### Actual DFT
+
+- Calculate freq and time matrix
+
+``` python
+def synthesis_matrix(N):
+	ts = np.arange(N) / N
+	fs = np.arange(N)
+	args = np.outer(ts, fs)
+	M = np.exp(1j * np.pi * 2 * args)
+	return M
+```
+
+- Transform
+
+``` python
+def dft(ys):
+	N = len(ys)
+	M = synthesis_matrix(N)
+	amps = M.conj().transpose().dot(ys) # no more / N
+	return amps
+```
+
+## Some subtleties of removing the / N in DFT
+
+### Nearly DFT
+
+![[complex_analysis_nearly_DFT.png]]
+
+### DFT and np.fft
+
+![[nearly_DFT_vs_DFT.png]]
+
+- values for nearly DFT is correct, but by removing the / N, you get DFT. The values of DFT and np.fft are wrong in the sense that they are scaled versions of the real values.
+
+# Analysing real signals
+
+Refer to coursera on how real signals made from 500 and 700hz waves generated ny Audacity is analysed:
+
+[3.197 analysing real signals](https://www.coursera.org/learn/uol-cm3065-intelligent-signal-processing/lecture/KbyVF/3-107-analysing-real-signals)
+
+# Fast convolution with DFT
+
+![[fast_convolution_with_DFT.png]]
+
+## Inverse DFT
+
+- 1 extra tool needed for convolution
+
+``` python
+def idft(ys):
+	N = len(ys)
+	M = synthesis_matrix(N)
+	amps = M.dot(ys) / N
+	return amps
+```
+
+# Convolution theorem
+
+> Convolving signals in the time domain is equivalent to multiplying their Fourier transforms in frequency domain.

@@ -20,6 +20,10 @@ As seen from above, those 2 are features provided by obsidian. I can also add my
 To create links between files in obsidian, simply add two square brackets like: 
 [[Quick Obsidian Guide to Notetaking for self]]
 
+To link to headings, add a hashtag afterwards like so:
+
+[[Quick Obsidian Guide to Notetaking for self#Links]]
+
 ## External links
 
 To create an external link, you put a link within the parenthesis and an optional square brackets for the link text like:
@@ -43,6 +47,10 @@ OR
 ![Picture of Plains](https://mdg.imgix.net/assets/images/shiprock.jpg?auto=format&fit=clip&q=40&w=1080)
 
 Pretty cool huh?
+
+## Embedded website
+
+<iframe src="https://www.youtube.com" style="width: 800px;height: 800px;"></iframe>
 
 ## Fancy links
 
