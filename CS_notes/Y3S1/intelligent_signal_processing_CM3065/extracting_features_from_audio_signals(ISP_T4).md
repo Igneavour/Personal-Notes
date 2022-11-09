@@ -1,5 +1,5 @@
 ---
-tags: [audio-feature]
+tags: [audio-feature, energy, spectrum, fundamental-frequency, loudness, brightness, pitch, rhythm, time-domain-feature, root-mean-squared-energy, zero-crossing-rate, amplitude-envelope, frequency-domain-feature, spectral-centroid, spectral-rolloff, spectral-flatness, spectral-flux, spectral-slope, spectral-spread, chroma, mel-frequency-ceptral-coefficients]
 aliases: [ISP T4, Intelligent Signal Processing Topic 4]
 ---
 
@@ -76,4 +76,26 @@ $$ RMSE = \sqrt{\frac{1}{N}\sum_n |x(n)|^2} $$
 - Spectral spread
 - Mel-frequency cepstral coefficients (MFCC)
 - Chroma
+
+# Real-time audio visualisations with p5.js - time domain features
+
+Video demonstration on coursera: 
+
+[4.101 real-time audio visualisations with p5.js - time domain features](https://www.coursera.org/learn/uol-cm3065-intelligent-signal-processing/lecture/1yXSb/4-101-real-time-audio-visualisations-with-p5-js-time-domain-features)
+
+# Real-time audio visualisations with p5.js - frequency domain features
+
+Video demonstration on coursera:
+
+[4.102 Real-time audio visualisations with p5.js – frequency domain features (1)](https://www.coursera.org/learn/uol-cm3065-intelligent-signal-processing/lecture/b2OJt/4-102-real-time-audio-visualisations-with-p5-js-frequency-domain-features-1)
+
+[4.103 Real-time audio visualisations with p5.js – frequency domain features (2)](https://www.coursera.org/learn/uol-cm3065-intelligent-signal-processing/lecture/pURiw/4-103-real-time-audio-visualisations-with-p5-js-frequency-domain-features-2)
+
+# Audio signal feature extraction with Python
+
+[4.201 Audio signal feature extraction with Python – time-domain features (1)](https://www.coursera.org/learn/uol-cm3065-intelligent-signal-processing/lecture/5lrrF/4-201-audio-signal-feature-extraction-with-python-time-domain-features-1)
+
+[4.203 Audio signal feature extraction with Python – time-domain features (2)](https://www.coursera.org/learn/uol-cm3065-intelligent-signal-processing/lecture/KOlI0/4-203-audio-signal-feature-extraction-with-python-time-domain-features-2)
+
+[4.205 Audio signal feature extraction with Python - frequency-domain features](https://www.coursera.org/learn/uol-cm3065-intelligent-signal-processing/lecture/Lln9K/4-205-audio-signal-feature-extraction-with-python-frequency-domain-features)
 
