@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Quick Obsidian Guide to Notetaking for self.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "edb6d1db497d8b71",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Y3S1/databases_advanced_data_techniques_CM3010/advanced_RDBMS_topics(DADT_T5).md",
+                "file": "Y3S1/machine_learning_neural_networks_CM3015/unsupervised_learning(MLNN_T5).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Y3S1/databases_advanced_data_techniques_CM3010/advanced_RDBMS_topics(DADT_T5).md",
+                "file": "Y3S1/machine_learning_neural_networks_CM3015/unsupervised_learning(MLNN_T5).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Y3S1/databases_advanced_data_techniques_CM3010/advanced_RDBMS_topics(DADT_T5).md",
+                "file": "Y3S1/machine_learning_neural_networks_CM3015/unsupervised_learning(MLNN_T5).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Y3S1/databases_advanced_data_techniques_CM3010/advanced_RDBMS_topics(DADT_T5).md"
+                "file": "Y3S1/machine_learning_neural_networks_CM3015/unsupervised_learning(MLNN_T5).md"
               }
             }
           },
@@ -158,17 +145,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "edb6d1db497d8b71",
+  "active": "3880bd935dec575f",
   "lastOpenFiles": [
-    "Y3S1/databases_advanced_data_techniques_CM3010/data_integrity_and_security(DADT_T3).md",
-    "Y3S1/databases_advanced_data_techniques_CM3010/advanced_RDBMS_topics(DADT_T5).md",
-    "Y3S1/intelligent_signal_processing_CM3065/speech_recognition(ISP_T5).md",
-    "Y3S1/intelligent_signal_processing_CM3065/frequency_domain_representations(ISP_T3).md",
+    "images/dimensionality_reduction_features.png",
     "Quick Obsidian Guide to Notetaking for self.md",
-    "Y3S1/machine_learning_neural_networks_CM3015/model_evaluation_and_improvement(MLNN_T4).md",
-    "Y3S1/machine_learning_neural_networks_CM3015/classification(MLNN_T2).md",
-    "Y3S1/databases_advanced_data_techniques_CM3010/using_databases_libraries_and_templating(DADT_T4).md",
-    "Y3S1/intelligent_signal_processing_CM3065/extracting_features_from_audio_signals(ISP_T4).md",
-    "Y3S1/data_science_CM3005/statistics(DS_T4).md"
+    "images/k_mean_1.png",
+    "images/k_mean_2.png",
+    "images/k_mean_5.png",
+    "images/k_mean_4.png",
+    "images/k_mean_3.png",
+    "Y3S1/machine_learning_neural_networks_CM3015/unsupervised_learning(MLNN_T5).md",
+    "Y3S1/databases_advanced_data_techniques_CM3010/advanced_RDBMS_topics(DADT_T5).md",
+    "Y3S1/databases_advanced_data_techniques_CM3010/data_integrity_and_security(DADT_T3).md"
   ]
 }
