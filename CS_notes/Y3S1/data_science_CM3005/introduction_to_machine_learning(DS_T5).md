@@ -1,5 +1,5 @@
 ---
-tags: [supervised-learning, unsupervised-learning, classification, regression, clustering, dimensionality-reduction, principal-component-analysis, model-validation, holdout-set, validation-curve, learning-curve, grid-search]
+tags: [supervised-learning, unsupervised-learning, classification, regression, clustering, dimensionality-reduction, principal-component-analysis, model-validation, holdout-set, validation-curve, learning-curve, grid-search, feature-engineering, missing-data, feature-pipeline]
 aliases: [Data Science Topic 5, DS T5]
 ---
 
