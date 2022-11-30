@@ -18,11 +18,11 @@ As seen from above, those 2 are features provided by obsidian. I can also add my
 ## Internal links
 
 To create links between files in obsidian, simply add two square brackets like: 
-[[Quick Obsidian Guide to Notetaking for self]]
+[[iris_clustering_DS]]
 
 To link to headings, add a hashtag afterwards like so:
 
-[[Quick Obsidian Guide to Notetaking for self#Links]]
+[[iris_clustering_DS#Links]]
 
 ## External links
 

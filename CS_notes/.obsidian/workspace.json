@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3880bd935dec575f",
+            "id": "54710265f8ac5c63",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Y3S1/machine_learning_neural_networks_CM3015/unsupervised_learning(MLNN_T5).md",
+                "file": "Y3S1/data_science_CM3005/introduction_to_machine_learning(DS_T5).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Y3S1/machine_learning_neural_networks_CM3015/unsupervised_learning(MLNN_T5).md",
+                "file": "Y3S1/data_science_CM3005/introduction_to_machine_learning(DS_T5).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Y3S1/machine_learning_neural_networks_CM3015/unsupervised_learning(MLNN_T5).md",
+                "file": "Y3S1/data_science_CM3005/introduction_to_machine_learning(DS_T5).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Y3S1/machine_learning_neural_networks_CM3015/unsupervised_learning(MLNN_T5).md"
+                "file": "Y3S1/data_science_CM3005/introduction_to_machine_learning(DS_T5).md"
               }
             }
           },
@@ -145,17 +145,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "3880bd935dec575f",
+  "active": "54710265f8ac5c63",
   "lastOpenFiles": [
+    "images/visualize_data_DS.png",
+    "Y3S1/data_science_CM3005/introduction_to_machine_learning(DS_T5).md",
+    "Y3S1/machine_learning_neural_networks_CM3015/unsupervised_learning(MLNN_T5).md",
     "images/dimensionality_reduction_features.png",
-    "Quick Obsidian Guide to Notetaking for self.md",
+    "images/iris_clustering_DS.md",
     "images/k_mean_1.png",
     "images/k_mean_2.png",
     "images/k_mean_5.png",
     "images/k_mean_4.png",
-    "images/k_mean_3.png",
-    "Y3S1/machine_learning_neural_networks_CM3015/unsupervised_learning(MLNN_T5).md",
-    "Y3S1/databases_advanced_data_techniques_CM3010/advanced_RDBMS_topics(DADT_T5).md",
-    "Y3S1/databases_advanced_data_techniques_CM3010/data_integrity_and_security(DADT_T3).md"
+    "images/k_mean_3.png"
   ]
 }
